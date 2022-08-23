@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/apigateway:3"
+        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/avireturn:2"
         LoadBalancerInfo:
           ContainerName: "authorization"
           ContainerPort: "9001"
