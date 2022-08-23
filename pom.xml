@@ -90,7 +90,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>apigateway</finalName>
+		<finalName>authorization</finalName>
 	</build>
 
 </project>
